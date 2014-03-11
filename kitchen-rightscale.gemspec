@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Ryan Cragun']
   encoded_email      = %w(cnlhbkByaWdodHNjYWxlLmNvbQ==)
   spec.email         = encoded_email.map { |e| Base64.decode64(e) }
-  description        = %q{A Test Kitchen Driver and Vagrant Provision for }
+  description        = %q{A Test Kitchen Driver and Vagrant Provisioner for }
   description        << %q{Rightscale RightImages}
   spec.description   = description
   spec.summary       = spec.description
